@@ -15,6 +15,15 @@ pip install checkDocuments
 
 >> <h3> How Works </h3>
 
+<p> For all methods, and this includes CPF, CNPJ, PIS and RG, the commands are the same
+
+check() to check
+format() to format
+unformatted() to unformat
+generate() to generate a new one
+
+</p>
+
 <p> <b> EXEMPLES </b> </p>
 
 >> CPF method 
@@ -22,61 +31,54 @@ pip install checkDocuments
 <p> To check if the CPF exists </p>
 
 ```
+from checkDocuments import cpf, rg, cnpj, PIS
+
 cpf("123456617-39").check()
 
 #Output can be TRUE or FALSE
 
 ```
+<p> To format the CPF with punctuation </p>
 
-############################
-# para formatar com pontuação o cpf
-#cpf("12345661739").forpoint() 
-####################################
-#para formatação com hifem
-#cpf("12345661739").forhyphen()
-#####################################
-#para formatação correta do cpf
-#cpf("123.456.789-39").format()
-#para gerar um novo cpf use o metodo abaixo.
-#cpf("123.456.789-39").generate()
-############################### metodo RG #########################################
-#para o padrão RG nacional, usamos como referencia as versões SP e RJ
-#para checar se o rg é verdadeiro
-#rg("12.345.678-9").check()
-####################################################################
-# para formatar o rg no padrão nacional
-# rg("123456789").format()
-###################################################################
-# para reverter o processo de formatação
-# rg("12.345.678-9").unformatted()
-###################################################################
-# para gerar novo rg
-#rg("12.345.678-9").generate()
+```
+from checkDocuments import cpf, rg, cnpj, PIS
 
-####################################################################################
+cpf("12345661739").forpoint() 
 
-#CPNPJ
+#Output can be 123.456.617.39
 
-# para verificar se o cnpj existe ou não
-#cnpj("12.345.678/0000-90").check()
-#para formatar o cnpj no padrão brasileiro
-#cnpj("12345678000090").format()
-#para o processo inverso da formatação
-#cnpj("12.345.678/0000-90").unformatted()
-# para gerar novos cnpjs
-#cnpj("12.345.678/0000-90").generate()
+```
 
-#####################################################################################
+<p> For hyphen formatting </p>
 
-#PIS
-#para verificar se o pis existe ou não
-#PIS("120.4602.746-0").check()
-############################################
-#para formatar o PIS no padrão brasileiro
-#120.4602.746-0
-#PIS("12046027460").format()
-#para reverter o processo de formatação
-#PIS("120.4602.746-0").unformatted()
-#para gerar um novo PIS
-#PIS("120.4602.746-0").generate()
+```
+from checkDocuments import cpf, rg, cnpj, PIS
+
+cpf("12345661739").forhyphen()
+
+output can ben 123456173-39
+
+```
+
+<p> For full formatting </p>
+
+```
+from checkDocuments import cpf, rg, cnpj, PIS
+
+cpf("123.456.789-39").format()
+
+output can ben 123.456.173-39
+
+```
+<p> To generate a new number from the entered number </p>
+
+```
+from checkDocuments import cpf, rg, cnpj, PIS
+
+cpf("123.456.789-39").generate()
+
+output can ben 116.176.923-09
+
+```
+
 
