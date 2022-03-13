@@ -16,8 +16,11 @@ pip install checkDocuments
 >> <h3> How Works </h3>
 
 <p> <b> EXEMPLES </b> </p>
+
 >> CPF method 
+
 <p> To check if the CPF exists </p>
+
 ```
 cpf("123456617-39").check()
 
