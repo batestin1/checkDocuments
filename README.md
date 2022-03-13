@@ -20,10 +20,10 @@ pip install checkDocuments
 
 <p> For all methods, and this includes CPF, CNPJ, PIS and RG, the commands are the same: </p>
 
-> check() to check
-> format() to format
-> unformatted() to unformat
-> generate() to generate a new one
+    > check() to check
+    > format() to format
+    > unformatted() to unformat
+    > generate() to generate a new one
 
 
 <p> <b> EXEMPLES </b> </p>
