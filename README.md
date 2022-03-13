@@ -16,11 +16,14 @@ pip install checkDocuments
 >> <h3> How Works </h3>
 
 <p> <b> EXEMPLES </b> </p>
-####################### CPF method ###############################################
-#para verificar se o cpf existe, use o metodo abaixo!
-#funciona com pontos e com -
-#para visualizar o retorno, use o print()
-#cpf("123456617-39").check()
+>> CPF method 
+<p> To check if the CPF exists </p>
+```
+cpf("123456617-39").check()
+
+#Output can be TRUE or FALSE
+```
+
 ############################
 # para formatar com pontuação o cpf
 #cpf("12345661739").forpoint() 
