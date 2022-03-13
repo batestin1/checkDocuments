@@ -3,9 +3,12 @@
 <img src="https://img.shields.io/static/v1?label=CHECKDOCUMENTS%20POR&message=Bates&color=7159c1&style=flat-square&logo=ghost"/>
 <h3> <p align="center">CHECKDOCUMENTS </p> </h3>
 <h3> <p align="center"> ================= </p> </h3>
+
 >> <h3> Resume </h3>
+
 <p> checkDocuments allows you to validate, format, unformat and generate new numbers of the main Brazilian documents such as <b> CPF, CNPJ, RG and PIS </b>
 Each document <b> (CPF, CNPJ, RG and PIS) </b> has its own method that can be followed according to the examples below </p>
+
 >> <h3> How install </h3>
 
 ```
