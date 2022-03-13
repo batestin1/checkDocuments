@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+checkDocuments/__init__.py
+checkDocuments/checkDocuments.py
+checkDocuments.egg-info/PKG-INFO
+checkDocuments.egg-info/SOURCES.txt
+checkDocuments.egg-info/dependency_links.txt
+checkDocuments.egg-info/top_level.txt
