@@ -15,14 +15,13 @@ pip install checkDocuments
 
 >> <h3> How Works </h3>
 
-<p> For all methods, and this includes CPF, CNPJ, PIS and RG, the commands are the same
+<p> For all methods, and this includes CPF, CNPJ, PIS and RG, the commands are the same: </p>
 
-check() to check
-format() to format
-unformatted() to unformat
-generate() to generate a new one
+> check() to check
+> format() to format
+> unformatted() to unformat
+> generate() to generate a new one
 
-</p>
 
 <p> <b> EXEMPLES </b> </p>
 
