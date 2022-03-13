@@ -7,10 +7,12 @@
 <p> checkDocuments allows you to validate, format, unformat and generate new numbers of the main Brazilian documents such as <b> CPF, CNPJ, RG and PIS </b>
 Each document <b> (CPF, CNPJ, RG and PIS) </b> has its own method that can be followed according to the examples below </p>
 >> <h3> How install </h3>
+
 ```
 pip install checkDocuments
 
 ```
+
 >> <h3> How Works </h3>
 
 <p> <b> EXEMPLES </b> </p>
